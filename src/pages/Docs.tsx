@@ -15,7 +15,7 @@ const Docs = () => {
             <div class="w-20 h-20 bg-accent-blue/10 rounded-3xl flex items-center justify-center text-accent-blue mb-4 shadow-premium">
                 <BookOpen class="w-10 h-10" />
             </div>
-            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">CodeArena <span class="text-accent-gradient">Documentation</span></h1>
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">DevVerse <span class="text-accent-gradient">Documentation</span></h1>
             <p class="text-brand-secondary text-lg max-w-xl">
                 Comprehensive guides, specifications, and references combining compiler standards with visualizer API schemas to streamline your learning loop.
             </p>

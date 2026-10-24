@@ -59,12 +59,12 @@ const About = () => {
           <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight mb-8">
             About{" "}
             <span class="text-accent-gradient">
-              CodeArena
+              DevVerse
             </span>
           </h1>
 
           <p class="max-w-3xl text-lg md:text-xl text-brand-secondary leading-relaxed font-medium">
-            CodeArena is a modern online coding platform designed to make
+            DevVerse is a modern online coding platform designed to make
             programming practice simple, fast, and accessible. Write code,
             execute it instantly, and improve your problem-solving skills
             directly from your browser.
@@ -86,7 +86,7 @@ const About = () => {
           <p class="text-brand-secondary text-base md:text-lg leading-relaxed">
             Our mission is to provide a zero-setup coding environment where
             developers and students can focus on solving problems instead of
-            configuring development environments. CodeArena brings essential
+            configuring development environments. DevVerse brings essential
             programming tools directly into the browser.
           </p>
         </section>
@@ -95,7 +95,7 @@ const About = () => {
         <section>
           <div class="mb-8">
             <h2 class="text-3xl md:text-4xl font-bold mb-3">
-              What makes CodeArena different?
+              What makes DevVerse different?
             </h2>
 
             <p class="text-brand-secondary text-lg">
@@ -139,7 +139,7 @@ const About = () => {
           </h2>
 
           <p class="text-brand-secondary text-base md:text-lg leading-relaxed mb-6">
-            CodeArena combines a clean developer-focused interface with modern
+            DevVerse combines a clean developer-focused interface with modern
             web technologies to create a smooth coding experience. From
             responsive layouts to interactive execution tools, every part of
             the platform is designed around simplicity and productivity.
@@ -169,7 +169,7 @@ const About = () => {
           </h2>
 
           <p class="text-brand-secondary mb-8">
-            Start coding, solve problems, and build your skills with CodeArena.
+            Start coding, solve problems, and build your skills with DevVerse.
           </p>
 
           <A

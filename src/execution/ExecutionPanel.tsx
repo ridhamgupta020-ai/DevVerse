@@ -129,7 +129,7 @@ const ExecutionPanel = (props: ExecutionPanelProps) => {
                 class="w-full bg-bg-tertiary border border-border rounded-xl px-4 py-2.5 text-xs font-medium focus:ring-2 focus:ring-accent-blue/10 outline-none transition-all appearance-none cursor-pointer"
                 disabled
               >
-                <option value="dark">CodeArena Dark</option>
+                <option value="dark">Dark</option>
               </select>
             </div>
 

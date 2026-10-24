@@ -43,7 +43,7 @@ const EditorToolbar = (props: EditorToolbarProps) => {
           <div class="w-8 h-8 flex items-center justify-center bg-foreground text-background rounded-lg shadow-premium transition-transform group-hover:rotate-12">
             <Zap class="w-4 h-4 fill-current" />
           </div>
-          <span class="font-bold tracking-tight text-sm hidden sm:block">CodeArena</span>
+          <span class="font-bold tracking-tight text-sm hidden sm:block">DevVerse</span>
         </A>
 
         <div class="flex items-center gap-1 overflow-x-auto no-scrollbar py-1">

@@ -23,8 +23,8 @@ import { cn } from '../utils/cn';
 import { useTheme } from '../utils/theme-signal';
 
 const DEFAULT_CODES: Record<string, string> = {
-  python: 'def main():\n    print("Welcome to CodeArena")\n\nif __name__ == "__main__":\n    main()',
-  javascript: 'console.log("Welcome to CodeArena");',
+  python: 'def main():\n    print("Welcome to DevVerse")\n\nif __name__ == "__main__":\n    main()',
+  javascript: 'console.log("Welcome to DevVerse");',
   cpp: '#include <iostream>\n\nint main() {\n    std::cout << "Performance redefined." << std::endl;\n    return 0;\n}',
   java: 'public class Main {\n    public static void main(String[] args) {\n        System.out.println("Object oriented learning.");\n    }\n}',
   c: '#include <stdio.h>\n\nint main() {\n    printf("Classic C Sandbox.\\n");\n    return 0;\n}'
@@ -56,7 +56,7 @@ const EditorPage = () => {
   const [executionHistory, setExecutionHistory] = createSignal<any[]>(
     (() => {
       try {
-        return JSON.parse(sessionStorage.getItem('codearena_execution_history') || '[]');
+        return JSON.parse(sessionStorage.getItem('DevVerse_execution_history') || '[]');
       } catch {
         return [];
       }
@@ -72,7 +72,7 @@ const EditorPage = () => {
   createEffect(() => storageService.saveFontSize(fontSize()));
   createEffect(() => {
     try {
-      sessionStorage.setItem('codearena_execution_history', JSON.stringify(executionHistory()));
+      sessionStorage.setItem('DevVerse_execution_history', JSON.stringify(executionHistory()));
     } catch {}
   });
   
