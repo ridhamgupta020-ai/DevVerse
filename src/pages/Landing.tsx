@@ -8,7 +8,7 @@ import { cn } from '../utils/cn';
 const executionSteps = ['Code written', 'Queued', 'Compiling', 'Executing', 'Evaluating', 'Result'];
 const architecture = [
   { title: 'Monaco Editor', detail: 'Source code & stdin', icon: Code2 },
-  { title: 'CodeArena API', detail: 'Request validation', icon: Braces },
+  { title: 'DevVerse API', detail: 'Request validation', icon: Braces },
   { title: 'Execution Queue', detail: 'Job dispatch', icon: Layers3 },
   { title: 'Worker & Runtime', detail: 'Compiler process', icon: Cpu },
   { title: 'Result', detail: 'Output & status', icon: Activity },
